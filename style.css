@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Padauk&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Montserrat", "Padauk", sans-serif;
+}
+.box {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  width: 50%;
+}
+
+.infoTitle {
+  color: #ff6f91;
+}
+.infoDescription {
+  font-size: 13px;
+  margin: 20px 0;
+}
+.currentInfo {
+}
+.current-place {
+  color: #ff6f91;
+}
+.map {
+  cursor: pointer;
+}
+
+.map svg {
+  stroke: #fff;
+  stroke-opacity: 0.5;
+}
+
+.map svg path {
+  fill: #ff6f91;
+  transition: 0.5s;
+}
+.map svg path.active {
+  fill: #fff;
+}
